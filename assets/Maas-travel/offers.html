@@ -1,0 +1,241 @@
+<!Doctype html>
+<html>
+
+<head>
+   <title>Travel Agency </title>
+   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+</head>
+
+<body>
+
+   <div class="navbar">
+      <div class="mt">MAAS Travel</div>
+      <ul>
+         <a href="index.html">
+            <li>Home</li>
+         </a>
+         <a href="about.html">
+            <li>About Us</li>
+         </a>
+         <a href="offers.html">
+            <li>Offers</li>
+         </a>
+         <a href="contacts.html">
+            <li>Contacts</li>
+         </a>
+      </ul>
+   </div>
+   <br>
+   <br>
+   <br>
+   <h1 class="offers">Our Travelling countries and Charges</h1>
+
+   
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/swiss1.jpg" class="off" alt="Switzerland" width="100%" height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li class="list-group-item">Switzerland</li>
+               <li  class="list-group-item">1200 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('Switzerland','1200 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/germany.jpg" class="off" alt="Germany" width="100%" height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item" >Germany</li>
+               <li  class="list-group-item">900 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('Germany','900 CHF');">Book</button> 
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/eiffle.jpg" class="off" alt="France" width="100%" height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li class="list-group-item" >France</li>
+               <li  class="list-group-item">1000 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('France','1000 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/usa.jpg" class="off" alt="USA" width="100%"  height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item">USA</li>
+               <li  class="list-group-item">1500 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('USA','1500 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/tajmahal.jpg" class="off" alt="India" width="100%"  height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item">India</li>
+               <li  class="list-group-item">600 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('India','600 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/colombo.jpg" class="off" alt="Sri Lanka" width="100%"  height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item">Sri Lanka</li>
+               <li  class="list-group-item">500 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('Sri Lanka','500 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/rome.jpg" class="off" alt="Italy" width="100%"  height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item">Italy</li>
+               <li  class="list-group-item">800 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('Italy','800 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/australia.jpg" class="off" alt="Australia"width="100%"  height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item">Australia</li>
+               <li  class="list-group-item">1300 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('Australia','1300 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/bridge.jpg" class="off" alt="England" width="100%" height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item">England</li>
+               <li  class="list-group-item">1400 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('England','1400 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   
+      <div class="row">
+         <div class="col-sm-4"> 
+            <img src="assets/images/egypt.jpg" class="off" alt="Egypt" width="100%"  height="250px">
+         </div>
+         <div class="col-sm-8">
+            <ul class="list-group">
+               <li  class="list-group-item">Egypt</li>
+               <li  class="list-group-item">400 CHF</li>
+               <li  class="list-group-item">4 Days and 5 nights.</li>
+            </ul>
+            <br/>
+            <button class="btn btn-primary" onclick="bookTicket('Egypt','400 CHF');">Book</button>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+   </div>
+   
+
+   <div class="navbar2">
+      <div class="con">
+         <img src="assets/images/phone.png">
+         <p>076.000.00.00</p>
+      </div>
+      <div class="con">
+         <img src="assets/images/mail.png">
+         <p>abcd@gamil.com</p>
+      </div>
+      <div class="con">
+         <img src="assets/images/map.png">
+         <p>Chemin de abcd 00,<br>lausanne</p>
+      </div>
+
+   </div>
+
+
+
+
+<script src="assets/js/script.js"></script>
+</body>
+
+
+</html>
